@@ -1,2 +1,12 @@
 .button-primary {
+  display: inline-flex;
+  padding: 22px 34px;
+  border-radius: 30px;
+  background: $palette-red;
+  color: $color-text__white;
+  font-size: 14px;
+  line-height: 18.12px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -1,0 +1,68 @@
+#online-study {
+  .container {
+    max-width: 1920px;
+    padding: 0;
+  }
+}
+
+.online-study {
+  &__wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 850px;
+    padding-top: 60px;
+    border-radius: 0 0 1000px 1000px;
+    background-color: rgba(49, 198, 217, 1);
+    background-image: url('../assets/images/sections/online-study/bg-left.png'), url('../assets/images/sections/online-study/bg-middle.png'), url('../assets/images/sections/online-study/bg-right-2.png'), url('../assets/images/sections/online-study/bg-right1.png');
+    background-position: top 0 left 0, bottom 100px left 40%, top 0 right 0, top 0 right 35%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+
+  }
+
+  &__info {
+    display: grid;
+    grid-template-columns: 1.2fr 0.9fr;
+    // margin-top: 60px;
+  }
+
+  &__text {
+    padding: 147px 0 0 374px;
+  }
+
+  &__title {
+    color: $color-text__blue;
+    font-weight: 500;
+    font-size: 58px;
+    font-family: $font-title;
+    line-height: 66.7px;
+
+    span {
+      display: block;
+      color: $color-text__white;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 5px;
+    padding-top: 35px;
+    color: $color-text__white;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: $font-title;
+    line-height: 29.9px;
+
+    a {
+      &:not(:last-child) {
+        &::after {
+          content: " /";
+        }
+      }
+    }
+  }
+
+  &__button {
+    margin-top: 87px;
+  }
+}
+

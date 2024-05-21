@@ -2,12 +2,23 @@
 // В этом файле подключаются все шрифты через font-face, и задаются основные настройки типографики
 // -----------------------------------------------------------------------------
 
-@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Light", 300);
-@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Regular", 400);
-@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Medium", 500);
-@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Bold", 700);
+// @include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Light", 300);
+// @include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Regular", 400);
+// @include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Medium", 500);
+// @include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Bold", 700);
 
-$font-default: "Roboto", sans-serif; // Семейство по умолчанию
+// @include font-face("PTSans", "../assets/fonts/PTSans/PTSans-Light", 300);
+@include font-face("PTSans", "../assets/fonts/PTSans/PTSans-Regular", 400);
+// @include font-face("PTSans", "../assets/fonts/PTSans/PTSans-Medium", 500);
+@include font-face("PTSans", "../assets/fonts/PTSans/PTSans-Bold", 700);
+
+@include font-face("PragmaticaExtended", "../assets/fonts/PragmaticaExtended/PragmaticaExtended-Medium", 500);
+@include font-face("PragmaticaExtended", "../assets/fonts/PragmaticaExtended/PragmaticaExtended-Bold", 700);
+
+$font-default: "PTSans", sans-serif; // Семейство по умолчанию
+$font-title: "PragmaticaExtended", sans-serif; // Семейство заголовков
+
+
 
 /* Размеры заголовков */
 $font__title--large: 64px;
